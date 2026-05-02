@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Skills of Pranithadevi P" />
+    <title>Pranithadevi P | Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8N8R1Q6qK6+Q6f0rQz9R+fL4x0iQp5g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">Pranithadevi P</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-top">
+        <div class="container reveal active">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Technologies I use</p>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <i class="fa-brands fa-html5"></i>
+              <h4>HTML5</h4>
+            </article>
+            <article class="skill-card">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h4>CSS3</h4>
+            </article>
+            <article class="skill-card">
+              <i class="fa-brands fa-js"></i>
+              <h4>JavaScript</h4>
+            </article>
+            <article class="skill-card">
+              <i class="fa-brands fa-react"></i>
+              <h4>React</h4>
+            </article>
+            <article class="skill-card">
+              <i class="fa-brands fa-git-alt"></i>
+              <h4>Python</h4>
+            </article>
+            <article class="skill-card">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <h4>Java</h4>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bottom-nav">
+        <div class="container">
+          <div class="bottom-nav-buttons">
+            <a href="index.html" class="btn page-btn page-btn-home">Home</a>
+            <a href="about.html" class="btn page-btn page-btn-about">About</a>
+            <a href="skills.html" class="btn page-btn page-btn-skills">Skills</a>
+            <a href="projects.html" class="btn page-btn page-btn-projects">Projects</a>
+            <a href="contact.html" class="btn page-btn page-btn-contact">Contact</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Pranithadevi P. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
